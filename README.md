@@ -19,3 +19,11 @@ I built this to support submitting LLM to Homebrew, since I needed a test that c
 
 - [Submit LLM to Homebrew](https://github.com/simonw/llm/issues/124)
 - [llm 0.6 (new formula)](https://github.com/Homebrew/homebrew-core/pull/137353)
+
+## Deployment
+
+Run this in the directory:
+```
+vercel --prod
+```
+It is deployed to the Datasette scope.
